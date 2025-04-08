@@ -1,47 +1,19 @@
-# Naanmudhalvan
-Mohammed suhail rasith
+<!DOCTYPE html>
 <html>
 <head>
-<title>Objects</title>
+  <title>My First Web Page</title>
 </head>
 <body>
-<p id="demo"></p>
-<script type="text/javascript"> 
-document.write("DATE OBJECTS"); 
-document.write("<br>"); 
-document.write("***** *******");
- document.write("<br>");
-
-var d = new Date();
- document.write(d.getDate()); 
-document.write(".");
- document.write(d.getMonth()+1); 
-document.write(".");
- document.write(d.getFullYear()); 
-document.write("<br><br>");
-
-document.write("NUMBER  OBJECTS"); 
-document.write("<br>");
- document.write("****** *******");
- document.write("<br>");
-
-var x = 10;
-var y = new Number(10); 
-document.write(typeof x);
- document.write("<br>");
- document.write(typeof y); 
-document.write("<br><br>");
-
-document.write("EVENT OBJECTS");
- document.write("<br>"); 
-document.write("***** ********"); 
-document.write("<br><br>");
-function GetEventType(eventObj)
-{
-alert("The type of the event : "+eventObj.type);
-}
-document.write("<br>");
-</script>
-<button onclick="GetEventType(arguments[0]);">Click on Me!</button>
+  <h1>Welcome to My Web Page</h1>
+  <p>This is my first web page.</p>
+  <p>I'm excited to learn more about HTML, CSS, and JavaScript!</p>
+  
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+  
+  <img src="https://via.placeholder.com/200x100" alt="A placeholder image">
 </body>
 </html>
